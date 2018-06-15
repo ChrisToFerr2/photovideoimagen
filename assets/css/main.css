@@ -7,6 +7,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+body {
+    background-image: url(/images/b.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -23,7 +33,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -56,7 +68,7 @@ body {
 }
 
 mark {
-	background-color: transparent;
+
 	color: inherit;
 }
 
@@ -98,14 +110,6 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #935e16 15%, #b4702c 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #935e16 15%, #b4702c 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #909090 15%, #fafafa 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #38260a 15%, #ac9c5a 85%);
-	}
-
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -119,10 +123,7 @@ input, select, textarea {
 
 /* Type */
 
-	body {
-		background-color: #9d6e17;
-		color: rgba(255, 255, 255, 0.65);
-	}
+
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -3053,7 +3054,15 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 1
+        
+        
+
 	}
+
+
+
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
@@ -3669,6 +3678,7 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+        background-color: rgba(0, 0, 0, 0.6);
 	}
 
 		#footer > * {
@@ -3686,7 +3696,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 4em 4em 4em ;
 			}
 
 		}
