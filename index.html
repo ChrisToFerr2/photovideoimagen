@@ -14,18 +14,48 @@
 				<!-- Header -->
                 
                 
-					<header id="header" class="alt">
-						<h1>Photo Video Imagen</h1>
-						<h2>Welcome to our website</h2>
-					</header>
-                
-                <div id="header">
-    <video width="100%" height="auto">
-        <source src="images/banner.mp4" type="video/mp4" />
-    </video>
-</div>
-                
+					<header id="header" class="alt">                       
+                        
+                        <div class = "container">
+                        
+                            <video id = "video" width="100%" height = "auto" autoplayloop>
+                                <source src="images/banner.mp4" type="video/mp4" />
+                            </video> 
+                  <div class="overlay">
 
+                        <h1>Photo Video Imagen</h1>
+						<h2>Welcome to our website</h2>
+                      
+                            </div>
+                        
+                        </div>
+                        <style>
+                            .container { position:relative; }
+                            
+                            .container video {
+                                position:relative;
+
+                                z-index:0;
+                                opacity: .5;
+
+                            }
+
+                            .overlay {
+
+                            position:absolute;
+
+                                top:0;
+
+                                left:0;
+
+                                z-index:1;
+
+                            }
+
+                        </style>
+               	    </header>
+                
+                
 
 				<!-- Nav -->
 					<nav id="nav">

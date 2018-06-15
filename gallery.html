@@ -9,16 +9,55 @@
 	</head>
 	<body class="is-preload">
         
+        
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
+                
+                
+					<header id="header" class="alt">                       
                         
-						<h1>Photo Video Imagen</h1>
-						Welcome to our website
-						
-					</header>
+                        <div class = "container">
+                        
+                            <video id = "video" width="100%" height = "auto" autoplayloop>
+                                <source src="images/banner.mp4" type="video/mp4" />
+                            </video> 
+                  <div class="overlay">
+
+                        <h1>Photo Video Imagen</h1>
+						<h2>Welcome to our website</h2>
+                      
+                            </div>
+                        
+                        </div>
+                        <style>
+                            .container { position:relative; }
+                            
+                            .container video {
+                                position:relative;
+
+                                z-index:0;
+                                opacity: .5;
+
+                            }
+
+                            .overlay {
+
+                            position:absolute;
+
+                                top:0;
+
+                                left:0;
+
+                                z-index:1;
+
+                            }
+
+                        </style>
+               	    </header>
+                
+                
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -87,12 +126,14 @@
 						<section>
 							<h2>Contact Us</h2>
 							<dl class="alt">
+                               <font color = "white">
 								<dt>Address</dt>
 								<dd>3249 N Front St &bull; Philadelphia, PA 19140 &bull; USA</dd>
 								<dt>Phone</dt>
 								<dd>(215) 634-2985</dd>
 								<dt>Email</dt>
 								<dd><a href="#">fotovideoimagen@yahoo.com</a></dd>
+                                    </font>
 							</dl>
 							<ul class="icons">
 								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
@@ -102,8 +143,9 @@
 							</ul>
 						</section>
 					
-            <p class="copyright">&copy; Photo Video Imagen</p>
+            <p class="copyright"> <font color = "white">&copy; Photo Video Imagen</font> </p>
 					</footer>
+
 
 			</div>
 
