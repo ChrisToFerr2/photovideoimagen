@@ -3301,12 +3301,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				max-width: calc(100% - 2em);
 			}
 
-				#nav + #main {
-					padding-top: 0;
-				}
 
 		}
 
